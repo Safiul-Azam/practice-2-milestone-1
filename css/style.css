@@ -26,14 +26,14 @@ p{
 }
 .flexibale{
     display: flex;
-    margin-bottom:150px;
+    height: 600px;
 }
 .half-width{
     width:40%;
     margin-left:5%;
 }
 .half-width p{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     
 }
 .half-width img{
@@ -43,7 +43,7 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 30px;
-    background-image: linear-gradient(orange,rgb(233, 117, 63));
+    background-image: linear-gradient( to right,orange,rgb(233, 117, 63));
     color:aliceblue;
     border-radius: 3px;
 }
@@ -57,7 +57,11 @@ p{
     background-repeat: no-repeat;
     background-position: left;
 }
-.web-exp{
+.flex-exp-side{
+    display:flex;
+    height: 400px;
+}
+.exp-half-width{
     width:40%;
     margin-left: 5%;
     padding: 10px 20px 50px 20px;
