@@ -42,7 +42,7 @@ p{
 .link-btn{
     text-decoration: none;
     text-transform: uppercase;
-    padding: 7px 30px;
+    padding: 8px 30px;
     background-image: linear-gradient(orange,rgb(233, 117, 63));
     color:aliceblue;
     border-radius: 3px;
@@ -64,16 +64,22 @@ p{
     box-shadow: 10px 10px 40px gray;
 }
 .full{
-    border-image: linear-gradient(rgb(219, 152, 52),orange);
+    border-image: linear-gradient(rgb(208, 219, 52),rgb(255, 198, 92));
     border-image-slice: 1;
-    border-left: 7px solid;
+    border-left: 6px solid;
 }
 .baby{
     border-image: linear-gradient(rgb(52, 180, 219),rgb(0, 68, 255));
-    border-image-slice: 1;
-    border-left: 7px solid; 
+    border-image-slice: 7 12 14 5;
+    border-left: 6px solid;
 }
 .exp{
     text-align: center;
     color: orange;
+    margin-bottom: 80px;
+
+}
+.footer-section{
+    text-align: center;
+    
 }
