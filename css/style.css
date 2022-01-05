@@ -20,9 +20,14 @@ h3{
     display: flex;
 }
 .half-width{
-    width:50%;
+    width:40%;
     margin-bottom:150px;
     margin-left:5%;
+}
+.half-width p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color:#333;
 }
 .half-width img{
     width:80%;
@@ -30,8 +35,13 @@ h3{
 .link-btn{
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px 30px;
+    padding: 7px 30px;
     background-image: linear-gradient(orange,rgb(233, 117, 63));
     color:aliceblue;
     border-radius: 3px;
+}
+.dream-section{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
