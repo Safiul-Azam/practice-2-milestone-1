@@ -2,3 +2,36 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0;
 }
+h1{
+    font-size:50px;
+    text-transform: capitalize;
+}
+h3{
+ font-size:20px;   
+}
+.color-change{
+    color:orange;
+}
+.header-section{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flexibale{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    margin-bottom:150px;
+    margin-left:5%;
+}
+.half-width img{
+    width:80%;
+}
+.link-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    background-image: linear-gradient(orange,rgb(233, 117, 63));
+    color:aliceblue;
+    border-radius: 3px;
+}
