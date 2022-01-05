@@ -6,8 +6,16 @@ h1{
     font-size:50px;
     text-transform: capitalize;
 }
+h2{
+    font-size: 40px;
+}
 h3{
  font-size:20px;   
+}
+p{
+    font-size: 17px;
+    color:#333;
+    line-height: 25px;
 }
 .color-change{
     color:orange;
@@ -18,16 +26,15 @@ h3{
 }
 .flexibale{
     display: flex;
+    margin-bottom:150px;
 }
 .half-width{
     width:40%;
-    margin-bottom:150px;
     margin-left:5%;
 }
 .half-width p{
     margin-bottom: 40px;
-    font-size: 16px;
-    color:#333;
+    
 }
 .half-width img{
     width:80%;
@@ -44,4 +51,29 @@ h3{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.web-exp{
+    width:40%;
+    margin-left: 5%;
+    padding: 10px 20px 50px 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.full{
+    border-image: linear-gradient(rgb(219, 152, 52),orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.baby{
+    border-image: linear-gradient(rgb(52, 180, 219),rgb(0, 68, 255));
+    border-image-slice: 1;
+    border-left: 7px solid; 
+}
+.exp{
+    text-align: center;
+    color: orange;
 }
