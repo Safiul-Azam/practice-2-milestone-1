@@ -26,7 +26,7 @@ p{
 }
 .flexibale{
     display: flex;
-    height: 600px;
+    margin-bottom: 120px;
 }
 .half-width{
     width:40%;
